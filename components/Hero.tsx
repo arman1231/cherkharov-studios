@@ -1,5 +1,8 @@
 import React from "react";
 import { Spotlight } from "@/components/ui/Spotlight";
+import { TextGenerateEffect } from "@/components/ui/TextGenerateEffect";
+import MagicButton from "@/components/ui/MagicButton";
+import { FaLocationArrow } from "react-icons/fa";
 
 const Hero = () => {
   return (
@@ -24,8 +27,29 @@ const Hero = () => {
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            Innovative Web Solutions Delivered Quickly and Securely
+            Cherkharov's Web Studio
           </h2>
+          <TextGenerateEffect
+            className="text-center text-[40px] md:text-5xl lg:text-6xl"
+            words="Innovative Web Solutions Delivered Quickly and Securely"
+          />
+          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
+            Hi, I’m Arman, the founder and lead developer of our web studio.
+            With over 10 years of experience in web development, I’ve guided my
+            team to successfully complete more than 30 projects. I specialize in
+            both frontend and backend development, ensuring every project is
+            robust, secure, and tailored to client needs. Backed by a Master of
+            Science degree in Applied Informatics, I lead a team of talented
+            professionals dedicated to bringing your ideas to life. Let’s create
+            something exceptional together!
+          </p>
+          <a href="#about">
+            <MagicButton
+              title="Show my work"
+              icon={<FaLocationArrow />}
+              position="right"
+            />
+          </a>
         </div>
       </div>
     </div>
