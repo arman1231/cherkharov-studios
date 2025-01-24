@@ -31,7 +31,7 @@ const Hero = () => {
           </h2>
           <TextGenerateEffect
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
-            words="Innovative Web Solutions Delivered Quickly and Securely"
+            words="Innovative Web Solutions Delivered Quickly and Securely Worldwide"
           />
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
             Hi, I’m Arman, the founder and lead developer of our web studio.
@@ -39,13 +39,13 @@ const Hero = () => {
             team to successfully complete more than 30 projects. I specialize in
             both frontend and backend development, ensuring every project is
             robust, secure, and tailored to client needs. Backed by a Master of
-            Science degree in Applied Informatics, I lead a team of talented
+            Science degree in Computer Science, I lead a team of talented
             professionals dedicated to bringing your ideas to life. Let’s create
             something exceptional together!
           </p>
-          <a href="#about">
+          <a href="#projects">
             <MagicButton
-              title="Show my work"
+              title="Show our work"
               icon={<FaLocationArrow />}
               position="right"
             />

@@ -1,14 +1,16 @@
 export const navItems = [
   { name: "About", link: "#about" },
+  { name: "Services", link: "#services" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  // { name: "Testimonials", link: "#testimonials" },
+  { name: "Team", link: "#team" },
   { name: "Contact", link: "#contact" },
 ];
 
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "We prioritize client collaboration, fostering open communication ",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -18,7 +20,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "We are very flexible with time zone communications",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -28,8 +30,8 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
+    title: "Our tech stack",
+    description: "Not limited by",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -38,7 +40,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "Tech enthusiasts with a passion for development",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -49,7 +51,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently building a project for non-profit organization",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,68 +74,63 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
+    title: "Luxury Hotel - Website",
+    des: "Rich design and smooth animation effects. Fully responsive and maintainable website using Wordpress",
+    img: "/raida.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    link: "/raida_full.jpg",
+    pin: "Hotel Raida",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
+    title: "Premiun Dentistry - Website",
+    des: "Exclusive design and animation effects. Fully responsive and maintainable website using Wordpress",
+    img: "/stiadent.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    link: "/stiadent_full.jpg",
+    pin: "Stiadent Dentistry",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
+    title: "Holding Company - Website + App",
+    des: "Unique design for unique company. Responsive website + MobApp.",
+    img: "/absu.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    link: "/absu_full.jpg",
+    pin: "Citadel Holding",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
+    title: "Paris Perfumery - ECOM-Store",
+    des: "Ecommerce website, fully adapted, using OpenCart CMS and ready to make money.",
+    img: "/perfumes.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    link: "/oligarque_full.jpg",
+    pin: "D'or Perfumes",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborating with Cherkharov's Web Studio was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Teams enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, this studio is the ideal partner.",
+    name: "Raida Hotel",
+    title: "Public relations team",
+    profileImg: "/raidaIcon.png",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Partnering with Cherkharov's Web Studio was a seamless and rewarding experience. Their team demonstrated exceptional professionalism, creativity, and a keen understanding of our needs. They transformed our vision into a sleek, modern website that truly reflects our brand. Their responsiveness and commitment to delivering top-notch results were remarkable. For anyone looking to create or enhance their online presence, we wholeheartedly recommend Cherkharov's Web Studio.",
+    name: "Stiadent Dentistry",
+    title: "Dentistry administrator",
+    profileImg: "/stiadentIcon.png",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Our experience with Cherkharov's Web Studio, led by the incredible CEO Arman Cherkharov, was nothing short of outstanding. Arman’s leadership and vision were evident in every step of the process, ensuring that our website was crafted with precision and creativity. The team delivered a user-friendly and visually stunning site that perfectly aligns with our brand. Their dedication to excellence and personalized service truly set them apart. We couldn’t be happier with the results and highly recommend Arman and his team!",
+    name: "D'or Perfumes",
+    title: "Joe Kasabian",
+    profileImg: "/dorIcon.png",
   },
 ];
 
@@ -170,48 +167,41 @@ export const companies = [
   },
 ];
 
-export const workExperience = [
+export const teamMembers = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Arman Cherkharov",
+    desc: "Team/Tech Lead, Developer",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "/arman.png",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
+    title: "Lolita Khukhua",
+    desc: "Project manager",
+    className: "md:col-span-2",
+    thumbnail: "/lolita.png",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
+    title: "Leo Petrosyan",
+    desc: "UX/UI designer",
+    className: "md:col-span-2",
+    thumbnail: "/leo.png",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Mark Utkin",
+    desc: "Software Developer",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/mark.png",
   },
 ];
 
 export const socialMedia = [
   {
     id: 1,
-    img: "/git.svg",
-  },
-  {
-    id: 2,
-    img: "/twit.svg",
-  },
-  {
-    id: 3,
-    img: "/link.svg",
+    img: "/telegram.svg",
+    link: "https://t.me/armandoChe",
   },
 ];
